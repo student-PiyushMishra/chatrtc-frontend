@@ -19,6 +19,7 @@ body {
 
 .joinInput::placeholder{
     color:#e9697e;
+    font-size: small;
 }
 
 .joinOuterContainer {
@@ -40,6 +41,7 @@ body {
     border-radius: 0;
     padding: 15px 20px;
     width: 100%;
+    font-size: medium;
 }
 
 .heading {
