@@ -71,7 +71,7 @@ const Chat = () => {
     }
   }
   return (
-    <div className="outerContainer h-screen w-full">
+    <div className="outerContainer">
       <Toaster />
       <div className="container">
         <InfoBar room={room}/>
