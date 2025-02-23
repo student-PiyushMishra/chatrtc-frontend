@@ -23,12 +23,12 @@ const Join = () => {
         <div>
           <input placeholder="Enter your name" type="text" value={name} onChange={(event) => {
             setName(event.target.value)
-          }} className='joinInput mt-20' />
+          }} className='joinInput mt-5' />
         </div>
         <div>
           <input placeholder="Enter your room" type="text" value={room} onChange={(event) => {
             setRoom(event.target.value)
-          }} className='joinInput mt-20' />
+          }} className='joinInput mt-5' />
         </div>
         <Link onClick={(event)=>{
           if (name === "" || room === "") {
@@ -36,7 +36,7 @@ const Join = () => {
             notify()
           }
         }} to={`/chat?name=${name}&room=${room}`}>
-          <button className='neuefont button mt-20'>Sign In</button>
+          <button className='neuefont button mt-5'>Sign In</button>
           <Toaster />
         </Link>
         </form>
