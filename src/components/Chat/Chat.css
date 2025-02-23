@@ -19,11 +19,16 @@
     overflow: hidden;
 }
 
+@media (min-width: 768px){
+    .container {
+        max-width: 457px;
+}
+}
 
 @media(max-width:900px){
     .container{
         min-height:550px;
-        width:90vw;
+        min-width:90vw;
         max-width: 457px;
     }
 }
