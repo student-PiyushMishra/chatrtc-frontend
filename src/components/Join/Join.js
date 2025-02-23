@@ -18,7 +18,7 @@ const Join = () => {
   return (
     <div className='joinOuterContainer'>
       <div className='joinInnerContainer'>
-        <h1 className='text-3xl heading neuefont'>Join</h1>
+        <h1 className='heading neuefont'>Join</h1>
         <form>
         <div>
           <input placeholder="Enter your name" type="text" value={name} onChange={(event) => {

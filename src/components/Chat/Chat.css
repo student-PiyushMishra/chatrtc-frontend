@@ -17,7 +17,7 @@
     max-height: 500px;
     max-width: 480px;
     overflow: hidden;
-    width:auto;
+    width:max-content;
 }
 
 @media (min-width: 768px){
