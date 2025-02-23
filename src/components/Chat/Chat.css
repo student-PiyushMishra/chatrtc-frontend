@@ -28,7 +28,7 @@
 @media(max-width:900px){
     .container{
         min-height:550px;
-        min-width:90vw;
+        min-width:300px;
         max-width: 457px;
     }
 }
