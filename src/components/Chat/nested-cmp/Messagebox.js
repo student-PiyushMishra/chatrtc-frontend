@@ -1,5 +1,4 @@
 import React from 'react';
-import { BiSolidSend } from "react-icons/bi";
 
 import "./Messagebox.js.css"
 
@@ -19,7 +18,7 @@ const Messagebox = ({message, setMessage, sendMessage}) => {
                 <button onClick={(event)=>{
                     sendMessage(event);
                 }}>
-                    <BiSolidSend />
+                    <i class="ri-send-plane-2-fill"></i>
                 </button>
             </div>
         </form>
