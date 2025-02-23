@@ -1,0 +1,44 @@
+.messagebox{
+    width:100%;
+    min-height:60px;
+    justify-self: flex-end;
+    background: #d90429;
+    padding:0.5em 0.7em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.messagebox input{
+    padding:.3em;
+    background: transparent;
+    height:100%;
+    width:90%;
+    color:white;
+    border-bottom: 1px solid white;
+}
+
+.messagebox input::placeholder{
+    letter-spacing: 0.3px;
+    font-size: 13px;
+    color:white;
+}
+
+.messagebox input:focus{
+    outline: none;
+}
+
+.send{
+    height:95%;
+    width: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    color:white;
+    cursor: pointer;
+}
+
+.send:active{
+    scale: 0.95;
+}
