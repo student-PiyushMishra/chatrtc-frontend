@@ -15,8 +15,9 @@
     min-height: 80%;
     min-width: 35%;
     max-height: 500px;
-    max-width: 400px;
+    max-width: 480px;
     overflow: hidden;
+    width:auto;
 }
 
 @media (min-width: 768px){
