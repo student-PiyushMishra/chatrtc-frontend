@@ -27,7 +27,8 @@ body {
     text-align: center;
     align-items: center;
     background-color: #1A1A1D;
-    height:100vh;
+    max-height: fit-content;
+    height:100%;
 }
 
 .joinInnerContainer {

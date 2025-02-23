@@ -16,7 +16,7 @@ const Join = () => {
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");
   return (
-    <div className='joinOuterContainer h-screen'>
+    <div className='joinOuterContainer'>
       <div className='joinInnerContainer'>
         <h1 className='text-3xl heading neuefont'>Join</h1>
         <form>
