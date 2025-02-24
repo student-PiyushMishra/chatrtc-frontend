@@ -28,8 +28,6 @@
 
 @media(max-width:900px){
     .container{
-        min-height:550px;
-        min-width:432px;
-        max-width: 457px;
+        width:90vw;
     }
 }
